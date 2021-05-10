@@ -17,6 +17,7 @@ import { HomeModule } from './home/home.module';
 import { AboutMeModule } from './about-me/about-me.module';
 import { ProjectsModule } from './projects/projects.module';
 import { ContactModule } from './contact/contact.module';
+import { ResumeModule } from './resume/resume.module';
 
 registerLocaleData(en);
 
@@ -32,6 +33,7 @@ registerLocaleData(en);
     HomeModule,
     AboutMeModule,
     ProjectsModule,
+    ResumeModule,
     ContactModule,
     SharedModule,
   ],
