@@ -8,16 +8,19 @@ import { NzTypographyModule } from 'ng-zorro-antd/typography';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzProgressModule } from 'ng-zorro-antd/progress';
 import { NzTableModule } from 'ng-zorro-antd/table';
+import { NzListModule } from 'ng-zorro-antd/list';
 
 import { AboutMeComponent } from './about-me.component';
 import { BackgroundTabPaneComponent } from './background-tab-pane/background-tab-pane.component';
 import { SkillsTabPaneComponent } from './skills-tab-pane/skills-tab-pane.component';
+import { CertificatesTabPaneComponent } from './certificates-tab-pane/certificates-tab-pane.component';
 
 @NgModule({
   declarations: [
     AboutMeComponent,
     BackgroundTabPaneComponent,
     SkillsTabPaneComponent,
+    CertificatesTabPaneComponent,
   ],
   imports: [
     CommonModule,
@@ -28,6 +31,7 @@ import { SkillsTabPaneComponent } from './skills-tab-pane/skills-tab-pane.compon
     NzDividerModule,
     NzProgressModule,
     NzTableModule,
+    NzListModule,
   ],
 })
 export class AboutMeModule {}
