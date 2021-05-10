@@ -1,0 +1,72 @@
+<h2 nz-typography>Skills</h2>
+<p nz-typography>
+  Below I have outlined the skills that I have learned during my coding journey.
+  I am always looking into new tech, techniques and other things to make sure I
+  keep improving my skills.
+</p>
+<p nz-typography>The skills are grouped into the following groups:</p>
+<ul>
+  <li nz-typography>Javascript/Typescript</li>
+  <li nz-typography>.NET</li>
+  <li nz-typography>General</li>
+</ul>
+
+<nz-divider nzText="Javascript/Typescript" nzOrientation="left"></nz-divider>
+<nz-table
+  #javascriptSkillsTable
+  [nzData]="javascriptSkills"
+  [nzFrontPagination]="false"
+>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Mastery</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of javascriptSkillsTable.data">
+      <td>{{ data.name }}</td>
+      <td><nz-progress [nzPercent]="data.mastery"></nz-progress></td>
+    </tr>
+  </tbody>
+</nz-table>
+
+<nz-divider nzText=".NET" nzOrientation="left"></nz-divider>
+<nz-table
+  #dotnetSkillsTable
+  [nzData]="dotnetSkills"
+  [nzFrontPagination]="false"
+>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Mastery</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of dotnetSkillsTable.data">
+      <td>{{ data.name }}</td>
+      <td><nz-progress [nzPercent]="data.mastery"></nz-progress></td>
+    </tr>
+  </tbody>
+</nz-table>
+
+<nz-divider nzText="General" nzOrientation="left"></nz-divider>
+<nz-table
+  #generalSkillsTable
+  [nzData]="generalSkills"
+  [nzFrontPagination]="false"
+>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Mastery</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of generalSkillsTable.data">
+      <td>{{ data.name }}</td>
+      <td><nz-progress [nzPercent]="data.mastery"></nz-progress></td>
+    </tr>
+  </tbody>
+</nz-table>
