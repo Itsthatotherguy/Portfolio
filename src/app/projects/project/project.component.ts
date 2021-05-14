@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ProjectComponent implements OnInit {
   @Input() name: string;
   @Input() repoUrl: string;
+  @Input() demoUrl: string;
 
   constructor() {}
 
