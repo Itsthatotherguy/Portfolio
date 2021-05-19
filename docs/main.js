@@ -855,7 +855,7 @@ class AvatarComponent {
     }
 }
 AvatarComponent.ɵfac = function AvatarComponent_Factory(t) { return new (t || AvatarComponent)(); };
-AvatarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AvatarComponent, selectors: [["app-avatar"]], decls: 3, vars: 0, consts: [["nzDirection", "vertical", "nzSize", "middle", 1, "avatar-container"], ["nzSrc", "../assets/images/avatar.jpg", "class", "avatar", 3, "nzSize", 4, "nzSpaceItem"], ["nz-typography", "", "class", "introduction", 4, "nzSpaceItem"], ["nzSrc", "../assets/images/avatar.jpg", 1, "avatar", 3, "nzSize"], ["nz-typography", "", 1, "introduction"]], template: function AvatarComponent_Template(rf, ctx) { if (rf & 1) {
+AvatarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AvatarComponent, selectors: [["app-avatar"]], decls: 3, vars: 0, consts: [["nzDirection", "vertical", "nzSize", "middle", 1, "avatar-container"], ["nzSrc", "assets/images/avatar.jpg", "class", "avatar", 3, "nzSize", 4, "nzSpaceItem"], ["nz-typography", "", "class", "introduction", 4, "nzSpaceItem"], ["nzSrc", "assets/images/avatar.jpg", 1, "avatar", 3, "nzSize"], ["nz-typography", "", 1, "introduction"]], template: function AvatarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nz-space", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AvatarComponent_nz_avatar_1_Template, 1, 1, "nz-avatar", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, AvatarComponent_p_2_Template, 2, 0, "p", 2);
