@@ -47,7 +47,13 @@ export class ProjectsComponent implements OnInit {
       repoUrl: 'https://github.com/Itsthatotherguy/personal-crm-frontend',
       demoUrl:
         'http://personal-crm-cvdm.co.za.s3-website-eu-west-1.amazonaws.com/',
-      techStack: ['Angular 11', 'AWS S3'],
+      techStack: [
+        'Angular 11',
+        'JWTs',
+        'LocalStorage',
+        'AWS S3',
+        'Ng Zorro Ant',
+      ],
     },
     {
       active: false,
@@ -57,6 +63,8 @@ export class ProjectsComponent implements OnInit {
         'NestJS (NodeJS)',
         'TypeORM',
         'PostgreSQL',
+        'PassportJS',
+        'JWTs',
         'AWS Elastic Beanstalk',
         'AWS RDS',
       ],
@@ -65,13 +73,19 @@ export class ProjectsComponent implements OnInit {
       active: false,
       name: 'Notetaking App (Frontend)',
       repoUrl: 'https://github.com/Itsthatotherguy/notetaking-app-frontend',
-      techStack: ['Angular 11', 'Ng Ant Zorro'],
+      techStack: ['Angular 11', 'Ng Ant Zorro', 'JWT', 'LocalStorage'],
     },
     {
       active: false,
-      name: 'Notetaking App (Backendend)',
+      name: 'Notetaking App (Backend)',
       repoUrl: 'https://github.com/Itsthatotherguy/notetaking-app-backend',
-      techStack: ['NestJS (NodeJS)', 'TypeORM', 'PostgreSQL', ,],
+      techStack: [
+        'NestJS (NodeJS)',
+        'TypeORM',
+        'PostgreSQL',
+        'PassportJS',
+        'JWTs',
+      ],
     },
     {
       active: false,
