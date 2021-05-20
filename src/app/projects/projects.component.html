@@ -10,7 +10,41 @@
   >
 </nz-page-header>
 
-<nz-list nzBordered>
+<p nz-typography style="margin-bottom: 24px">
+  Open the below panels to view the tech stack involved in each project.
+</p>
+
+<nz-collapse>
+  <nz-collapse-panel
+    *ngFor="let project of projects"
+    [nzHeader]="project.name"
+    [nzActive]="project.active"
+    [nzExtra]="actions"
+  >
+    <nz-descriptions nzLayout="vertical" class="descriptions">
+      <nz-descriptions-item nzTitle="Tech Stack Used">
+        <ul>
+          <li *ngFor="let line of project.techStack">{{ line }}</li>
+        </ul>
+      </nz-descriptions-item>
+    </nz-descriptions>
+    <ng-template #actions>
+      <nz-space>
+        <ng-container *ngIf="project.demoUrl">
+          <a *nzSpaceItem href="{{ project.demoUrl }}" target="_blank"
+            >View Demo</a
+          >
+          <nz-divider *nzSpaceItem nzType="vertical"></nz-divider>
+        </ng-container>
+        <a *nzSpaceItem href="{{ project.repoUrl }}" target="_blank"
+          >View Repository</a
+        >
+      </nz-space>
+    </ng-template>
+  </nz-collapse-panel>
+</nz-collapse>
+
+<!-- <nz-list nzBordered>
   <app-project
     name="Blazor Todo App"
     repoUrl="https://portfolio.christiaanvandermerwe.com/projects/blazor-todo-app"
@@ -42,4 +76,4 @@
     demoUrl="https://itsthatotherguy.github.io/tax-calculator"
   >
   </app-project>
-</nz-list>
+</nz-list> -->

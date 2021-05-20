@@ -6,12 +6,13 @@ import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { NzListModule } from 'ng-zorro-antd/list';
 import { NzSpaceModule } from 'ng-zorro-antd/space';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
+import { NzCollapseModule } from 'ng-zorro-antd/collapse';
+import { NzDescriptionsModule } from 'ng-zorro-antd/descriptions';
 
 import { ProjectsComponent } from '../projects/projects.component';
-import { ProjectComponent } from './project/project.component';
 
 @NgModule({
-  declarations: [ProjectsComponent, ProjectComponent],
+  declarations: [ProjectsComponent],
   imports: [
     CommonModule,
     NzPageHeaderModule,
@@ -19,6 +20,8 @@ import { ProjectComponent } from './project/project.component';
     NzListModule,
     NzSpaceModule,
     NzDividerModule,
+    NzCollapseModule,
+    NzDescriptionsModule,
   ],
 })
 export class ProjectsModule {}
