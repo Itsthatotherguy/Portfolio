@@ -47,13 +47,7 @@ export class ProjectsComponent implements OnInit {
       repoUrl: 'https://github.com/Itsthatotherguy/personal-crm-frontend',
       demoUrl:
         'http://personal-crm-cvdm.co.za.s3-website-eu-west-1.amazonaws.com/',
-      techStack: [
-        'Angular 11',
-        'JWTs',
-        'LocalStorage',
-        'AWS S3',
-        'Ng Zorro Ant',
-      ],
+      techStack: ['Angular 11', 'Ngrx', 'JWTs', 'AWS S3', 'Ng Zorro Ant'],
     },
     {
       active: false,
@@ -73,7 +67,7 @@ export class ProjectsComponent implements OnInit {
       active: false,
       name: 'Notetaking App (Frontend)',
       repoUrl: 'https://github.com/Itsthatotherguy/notetaking-app-frontend',
-      techStack: ['Angular 11', 'Ng Ant Zorro', 'JWT', 'LocalStorage'],
+      techStack: ['Angular 11', 'Ng Ant Zorro', 'JWT', 'Ngrx'],
     },
     {
       active: false,
