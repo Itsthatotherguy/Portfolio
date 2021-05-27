@@ -5,3 +5,15 @@
 .content {
   padding: 24px;
 }
+
+@media print {
+  nz-sider {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding-left: 60px;
+  }
+}

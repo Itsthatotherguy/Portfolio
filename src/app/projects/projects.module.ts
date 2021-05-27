@@ -8,6 +8,7 @@ import { NzSpaceModule } from 'ng-zorro-antd/space';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzDescriptionsModule } from 'ng-zorro-antd/descriptions';
+import { NzTypographyModule } from 'ng-zorro-antd/typography';
 
 import { ProjectsComponent } from '../projects/projects.component';
 
@@ -22,6 +23,7 @@ import { ProjectsComponent } from '../projects/projects.component';
     NzDividerModule,
     NzCollapseModule,
     NzDescriptionsModule,
+    NzTypographyModule,
   ],
 })
 export class ProjectsModule {}

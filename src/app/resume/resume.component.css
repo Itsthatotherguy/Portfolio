@@ -1,1 +1,23 @@
+@media print {
+  nz-breadcrumb,
+  nz-page-header {
+    display: none;
+  }
+}
 
+@page {
+  size: auto;
+}
+
+@page: first {
+  margin: 0cm;
+}
+@page: last {
+  margin: 5cm;
+}
+@page: left {
+  margin: 2cm 1.5cm 2cm 2cm;
+}
+@page: right {
+  margin: 2cm 2cm 2cm 1.5cm;
+} ;

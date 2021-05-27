@@ -9,7 +9,6 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { SidebarComponent } from '../shared/sidebar/sidebar.component';
 import { AvatarComponent } from '../shared/sidebar/avatar/avatar.component';
 import { NavMenuComponent } from '../shared/sidebar/nav-menu/nav-menu.component';
-import { AppRoutingModule } from '../app-routing.module';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
